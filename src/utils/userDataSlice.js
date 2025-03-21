@@ -8,9 +8,12 @@ const userDataSlice = createSlice({
     reducers: { 
         addTrends: (state, action) => {
             state.questions.push(action.payload);
+        },
+        setQuestions: (state, action) => {
+            state.questions = action.payload; // Replace existing questions
         }
     }
 });
 
-export const { addTrends } = userDataSlice.actions;
+export const { addTrends, setQuestions } = userDataSlice.actions;
 export default userDataSlice.reducer;

@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import UserForm from "./Components/UserForm";
 import Dashboard from "./Components/Dashboard";
 import SkillAssessment from "./Components/SkillAssessment";
-import JobTrends from "./Components/JobTrends";
+import JobTrends from "./Components/CarrerPath";
 import SkillsNeed from "./Components/SkillsNeed";
 import { Provider } from 'react-redux'
 // import PerformanceBasedRecommendation from "./Components/PerformanceBasedRecommendation";
